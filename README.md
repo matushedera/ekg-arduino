@@ -9,4 +9,4 @@ File `readEKG.ino` is inspired by [this website](https://navody.dratek.cz/navody
 
 **Python code**
 
-File `main.py` reads the data from the serial port and processes it. Parameters FRAMES and WINDOW customize the recorded segment. Most recent WINDOW number of datapoints are shown on live graph and pressing the R key saves FRAMES number of upcomming windows. Pressing the Q key will terminate the program.
+File `main.py` reads the data from the serial port and processes it. Parameters FRAMES and WINDOW customize the recorded segment. Most recent WINDOW number of datapoints are shown on live graph and pressing the R key saves FRAMES number of upcomming windows. Pressing the Q key terminates the program.
